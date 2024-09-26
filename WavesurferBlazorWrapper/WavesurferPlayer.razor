@@ -135,6 +135,10 @@
     {
         if (firstRender)
         {
+            _mainDivGuid = Guid.NewGuid();
+            _timelineDivGuid = Guid.NewGuid();
+            _minimapDivGuid = Guid.NewGuid();
+
             //starting upon rendering target divs
             if (_interop != null)
             {
